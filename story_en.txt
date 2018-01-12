@@ -1,0 +1,54 @@
+title: Golden Globes
+subhead: Winners in main categories
+
+[tabs]
+image: frances-02.png
+props.name: Actress (drama)
+props.title: Frances McDormand
+props.description: Best actress - drama 
+props.text: "Three Billboard Outside Ebbing Missouri"
+props.color: #a0262a
+
+image: gary-02.png
+props.name: Actor (Drama)
+props.title: Gary Oldman 
+props.description: Best actor - drama
+props.text: "Darkest Hour"
+props.color: #a0262a
+
+
+image: saoirse-02.png
+props.name: Actress (musical or comedy)
+props.title: Saoirse Ronan
+props.description: Best actress - musical or comedy
+props.text: "Lady Bird"
+props.color: #a0262a
+
+image: james-02.png
+props.name: Actor (music or comedy)
+props.title: James Franco
+props.description: Best actor - music or comedy
+props.text: "The Disaster Artist"
+props.color: #a0262a
+
+image: allison-02.png
+props.name: Supporting actress
+props.title: Allison Janney
+props.description: Best supporting actress
+props.text: "I, Tonya"
+props.color: #a0262a
+
+image: sam-02.png
+props.name: Supporting actor
+props.title: Sam Rockwell 
+props.description: Best supporting actor
+props.text: "Three Billboard Outside Ebbing Missouri"
+props.color: #a0262a
+
+[]
+
+sources: Sources: Golden Globe
+
+lastUpdate.key: Last update:
+lastUpdate.value: 01/10/2018 04:45:00
+lang: en

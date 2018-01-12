@@ -1,0 +1,110 @@
+body {
+  color : #231f20;
+}
+nav {
+	;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  list-style: none;
+  padding: 0px;
+  margin: auto;
+}
+ul li {
+	background-color: blue; 
+}
+nav ul li {
+  border: 1px solid blue;
+  align-items: center;
+  width: 140px;
+  margin: 2px 2px 15px 2px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Source Sans Pro';
+  height: 44px;
+  line-height: 20px;
+  color: #849097;
+  background-color: purple;
+  transition: box-shadow 0.33s ease-out, color 0.33s ease-out;
+  -webkit-transition: box-shadow 0.33s ease-out, color 0.33s ease-out; /* Safari */
+}
+nav ul li:not(.active) {
+  background-color: white !important;
+}
+nav ul li.active {
+  box-shadow: 0 0 7px rgba(132, 144, 151, 0.5);
+  color : white;
+  border-radius: 2px;
+}
+h3 {
+  font-size: 22px;
+  margin: 0;
+  color: #a0262a;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.name {
+	font-style: italic;
+}
+.movie {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #4bad60;
+}
+p {
+  padding-top: 0.1em;
+  margin: 10px 0;
+}
+#app {
+  border: 1px solid red;
+  width: 300px;
+  
+}
+main {
+	height: 550px;
+	border: 1px solid blue;
+}
+main img {
+  border: 1px solid yellow;
+  width: 95%;
+}
+
+@media screen and (min-width: 400px) {
+  #app {
+	  width: 100%;
+	  max-width: 600px;
+  }
+  nav {
+	  max-width: 550px;
+  }
+  main h3 {
+	  line-height: 20px;
+	  
+  }
+  .name {
+	  margin-top: 100px;
+  }
+  .movie {
+	  font-size: 2rem;
+  }
+  main img {
+    float: right;
+    width: 65%;
+  }
+  h3 {
+    padding-top: 38px;
+  }
+  p.name {
+    width: 55%;
+  }
+}
+
+footer {
+  clear: both;
+}
