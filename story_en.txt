@@ -1,4 +1,4 @@
-title: Golden Globes
+title: Golden Globes 2018
 subhead: Winners in main categories
 
 [tabs]

@@ -70,18 +70,30 @@ main {
 	height: 550px;
 	border: 1px solid blue;
 }
-main img {
+.imgbox {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 430px;
+	border: 1px solid red;
+} 
+.imgbox img { 
   border: 1px solid yellow;
   width: 95%;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
   #app {
 	  width: 100%;
 	  max-width: 600px;
   }
+  
   nav {
 	  max-width: 550px;
+	  margins: auto;
+  }
+  main {
+	  height: 530px;
   }
   main h3 {
 	  line-height: 20px;
@@ -93,9 +105,14 @@ main img {
   .movie {
 	  font-size: 2rem;
   }
-  main img {
-    float: right;
-    width: 65%;
+  .imgbox {
+	display: block;
+	float: right;
+    width: 55%;
+	border: 1px solid red;
+} 
+  .imgbox img {
+    
   }
   h3 {
     padding-top: 38px;

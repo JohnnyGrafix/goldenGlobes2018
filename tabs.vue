@@ -8,8 +8,10 @@
       </ul>
     </nav>
     <main>
-      <img :src="currentImage" />
-      <h3>{{ currentItem.props.title }}</h3>
+      <div class="imgbox">
+	  <img :src="currentImage" />
+      </div>
+	  <h3>{{ currentItem.props.title }}</h3>
       <p class="name"> {{ currentItem.props.description }}</p>
       <p class="movie"> {{ currentItem.props.text }}</p>
     </main>
